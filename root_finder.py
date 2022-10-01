@@ -32,7 +32,7 @@ def f(x):
 
 def fprime(x):
   # evaluate f' at x
-    return 3*x + 8*x
+    return 3*x**2 + 8*x
 
 # set initial value
 x_initial = 0.1
