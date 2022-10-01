@@ -36,6 +36,7 @@ def fprime(x):
 
 # set initial value
 x_initial = 0.1
+x_old = x_initial
 
 # perform 10 iterations of Newton's method, printing out 
 for i in range(10):
