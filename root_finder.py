@@ -28,7 +28,7 @@ This is a temporary script file.
 
 def f(x):
   # evaluate f at x
-  return x**3 + 4*x**2 - 10
+    return x**3 + 4*x**2 - 10
 
 def fprime(x):
   # evaluate f' at x
@@ -40,7 +40,7 @@ x_old = x_initial
 
 # perform 10 iterations of Newton's method, printing out 
 for i in range(10):
-    x_od = x_new
-    X_new = x_old - f(x_old) / fprime(x_old)
+    x_new = x_old - f(x_old) / fprime(x_old)
+    x_old = x_new
 
 print(i, x_new, f(x_new))
