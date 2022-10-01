@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
 # This code implements Newton's method for finding a root(s) of the function
 #
 # f(x) = x^3 + 4x^2 - 10,
