@@ -42,5 +42,4 @@ x_old = x_initial
 for i in range(10):
     x_new = x_old - f(x_old) / fprime(x_old)
     x_old = x_new
-
-print(i, x_new, f(x_new))
+    print(i, x_new, f(x_new))
